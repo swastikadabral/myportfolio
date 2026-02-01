@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <nav>
+    <h2 class="logo">MyPortfolio</h2>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#assignments">Assignments</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="home" class="hero">
+    <img src="photo.jpg" class="profile" />
+    <h1>Hello, I'm <span>Swastika Dabral</span></h1>
+    <p>Aspiring Software Developer</p>
+    <button onclick="scrollToSection('contact')">Contact Me</button>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>My name is Swastika Dabral,I am currently persuing bachelors in computer science and technology from graphic era hill university</p>
+  </section>
+
+  <!-- ASSIGNMENTS SECTION -->
+<<section id="assignments">
+  <h2>My Assignments</h2>
+  <a href="Profiling sheet Swastika Dabral Section G1 Roll num 65.pdf" 
+     download="Profiling sheet Swastika Dabral Section G1 Roll num 65.pdf"
+     class="btn">
+     Download My Assignment
+  </a>
+</section>
+
+
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" />
+      <input type="email" placeholder="Your Email" />
+      <textarea placeholder="Message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer> My Portfolio</footer>
+</body>
+</html>

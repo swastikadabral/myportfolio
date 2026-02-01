@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #0a0a0a; /* dark background */
+  color: #fff;
+}
+
+/* NAVBAR */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+  background: #1c0a1c; /* dark pink/navy blend */
+}
+
+.logo {
+  color: #ff5ca2; /* dark pink */
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+nav ul {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #ff5ca2;
+}
+
+/* HERO SECTION */
+.hero {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+.profile {
+  width: 280px; /* bigger picture */
+  height: 280px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 6px solid #ff5ca2; /* pink border */
+  margin-bottom: 30px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.hero span {
+  color: #ff5ca2; /* pink highlight */
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #ccc;
+  max-width: 600px;
+}
+
+/* BUTTONS */
+button,
+.btn {
+  background: #1c0a1c; /* dark pink */
+  color: #ffdd57; /* yellow text */
+  padding: 14px 36px;
+  border-radius: 30px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+  letter-spacing: 0.5px; /* space between letters */
+  margin-top: 15px;
+}
+
+button:hover,
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(255, 92, 162, 0.6);
+}
+
+/* SECTIONS */
+section {
+  padding: 5rem 2rem;
+  text-align: center;
+}
+
+section h2 {
+  font-size: 2.6rem;
+  margin-bottom: 20px;
+  color: #ff5ca2; /* section titles in pink */
+}
+
+section p {
+  max-width: 700px;
+  margin: 20px auto 40px; /* more space above/below */
+  color: #ccc;
+  font-size: 1.05rem;
+}
+
+/* ASSIGNMENTS */
+#assignments {
+  background: #1c0a1c; /* dark pink background */
+  border-radius: 15px;
+  padding: 3rem 1rem;
+}
+
+#assignments .btn {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+/* CONTACT */
+form {
+  max-width: 450px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+input,
+textarea {
+  padding: 14px;
+  border-radius: 12px;
+  border: none;
+  font-size: 1rem;
+}
+
+input:focus,
+textarea:focus {
+  outline: 2px solid #ff5ca2;
+}
+
+/* FOOTER */
+footer {
+  background: #0a0a0a;
+  color: #fff;
+  text-align: center;
+  padding: 1.2rem;
+  font-size: 0.9rem;
+}
